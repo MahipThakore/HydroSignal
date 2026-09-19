@@ -1,0 +1,137 @@
+{
+ "version": 1,
+ "saved_at": "2026-09-19T00:09:45.886487+00:00",
+ "reports": [
+  {
+   "id": "rep-seed-1",
+   "type": "illness",
+   "title": "Gastroenteritis Cluster Alert",
+   "area": "oldtown",
+   "lat": 16.519,
+   "lng": 80.624,
+   "severity": 3,
+   "note": "3 households with acute watery diarrhea and vomiting near Gandhi Road.",
+   "status": "approved",
+   "submitter": "Community Clinic Desk",
+   "time": "2026-09-18T18:40:00Z",
+   "approved_by": "admin",
+   "approved_at": "2026-09-18T19:00:00Z",
+   "origin": "seed"
+  },
+  {
+   "id": "rep-seed-2",
+   "type": "water",
+   "title": "Community Tap Turbidity & Foul Odor",
+   "area": "harbor",
+   "lat": 16.486,
+   "lng": 80.671,
+   "severity": 2,
+   "note": "Murky brown water coming from municipal tap line near dock lane 4.",
+   "status": "approved",
+   "submitter": "Resident R. Naidu",
+   "time": "2026-09-18T20:15:00Z",
+   "approved_by": "admin",
+   "approved_at": "2026-09-18T20:30:00Z",
+   "origin": "seed"
+  },
+  {
+   "id": "rep-seed-3",
+   "type": "flood",
+   "title": "Monsoon Waterlogging Near Overhead Storage Tank",
+   "area": "harbor",
+   "lat": 16.489,
+   "lng": 80.675,
+   "severity": 3,
+   "note": "Knee-deep standing water near public distribution tank foundation; potential seepage risk.",
+   "status": "approved",
+   "submitter": "Ward Sanitary Inspector",
+   "time": "2026-09-18T22:10:00Z",
+   "approved_by": "admin",
+   "approved_at": "2026-09-18T22:25:00Z",
+   "origin": "seed"
+  },
+  {
+   "id": "rep-seed-4",
+   "type": "sanit",
+   "title": "Open Drainage Overflow Next to Water Standpipe",
+   "area": "oldtown",
+   "lat": 16.516,
+   "lng": 80.62,
+   "severity": 2,
+   "note": "Blocked storm drain spilling into tap recharge zone.",
+   "status": "approved",
+   "submitter": "Market Vendors Association",
+   "time": "2026-09-18T23:00:00Z",
+   "approved_by": "admin",
+   "approved_at": "2026-09-18T23:15:00Z",
+   "origin": "seed"
+  },
+  {
+   "id": "rep-seed-5",
+   "type": "water",
+   "title": "Rooftop Storage Tank Residue Complaint",
+   "area": "north",
+   "lat": 16.542,
+   "lng": 80.618,
+   "severity": 2,
+   "note": "Yellowish sediment in apartment water tank, requires municipal testing.",
+   "status": "rejected",
+   "submitter": "Resident P. Varma",
+   "time": "2026-09-19T00:15:00Z",
+   "approved_by": null,
+   "approved_at": "2026-09-19T00:09:43.663461+00:00",
+   "origin": "seed"
+  },
+  {
+   "id": "rep-seed-6",
+   "type": "illness",
+   "title": "Enteric Fever Symptoms in 2 School Children",
+   "area": "industrial",
+   "lat": 16.508,
+   "lng": 80.681,
+   "severity": 3,
+   "note": "Children drank water from unboiled cooler near industrial colony bus stop.",
+   "status": "rejected",
+   "submitter": "School Health Volunteer",
+   "time": "2026-09-19T00:50:00Z",
+   "approved_by": null,
+   "approved_at": "2026-09-19T00:09:45.886459+00:00",
+   "origin": "seed"
+  }
+ ],
+ "alerts": [
+  {
+   "id": "alt-1",
+   "level": "watch",
+   "title": "Monsoon Drainage Advisory \u2014 Harbor East & Old Town",
+   "body": "Heavy rainfall runoff observed. Water tanker sanitization squads deployed. Precautionary water boiling strongly advised for drinking purposes.",
+   "regions": [
+    "harbor",
+    "oldtown"
+   ],
+   "evidence": [
+    "Precipitation accumulation 64mm",
+    "Surface runoff near standpipes"
+   ],
+   "action": "Boil all drinking water for at least 1 minute. Report discoloration or strange odor immediately.",
+   "time": "2026-09-18T21:00:00Z",
+   "source": "Municipal Health Department"
+  }
+ ],
+ "users": {
+  "demo_user": {
+   "username": "demo_user",
+   "password_hash": "1af204bdb22af6d90752808cad852e45$826c0a92fb0367d5555360af6caeffa6008998c1605f457bb15636233c57b811",
+   "role": "user",
+   "name": "Community Resident",
+   "area": "oldtown"
+  },
+  "admin": {
+   "username": "admin",
+   "password_hash": "ce2715140e8b85814a8083a6289dffef$e52dd1cae9b76f259c882101953f04c082e1b3101c990de5cf8ccf04ba67d64f",
+   "role": "admin",
+   "name": "Municipal Health Director",
+   "department": "Municipal Public Health & Water Works"
+  }
+ }
+}
